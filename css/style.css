@@ -1,0 +1,26 @@
+#head {
+    text-align:left;
+    padding-top: 20%;
+    padding-left: 2%;
+    height: auto;
+    width: auto;
+    color: white;
+    background-image: url("../img/jstips-header-blog.gif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Trebuchet MS" , "Times New Roman", Georgia, Serif;
+}
+
+#W01P02 {
+    border: 1px solid black;
+    padding: 2%;
+    background-color: lightgray;
+}
