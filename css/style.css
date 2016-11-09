@@ -24,3 +24,11 @@ body {
     padding: 2%;
     background-color: lightgray;
 }
+
+footer {
+    background-color: darkgrey;
+    color: white;
+    padding-left: 40%;
+    padding-right: 40%;
+    border: 1px solid black;
+}
