@@ -8,8 +8,22 @@
 
 
 
-btnStartStop = document.querySelector('Button');
+var btnStartStop;
 
-console.log("This is an Element of the type: ", btnStartStop.nodeType);
-console.log("The innerHTML is: " + btnStartStop.innerHTML );
-console.log("The childnode is: " + btnStartStop.childNodes.length );
+
+
+window.onload = function() {
+    //Elementen selectern
+    btnStartStop =  document.querySelector('Button');
+
+    //EventListners
+    btnStartStop.addEventListener('click', btnStartReset);
+};
+
+function btnStartReset(event) {
+    if (this.innerText == 'Start spel') {
+        this.innerText = 'Reset spel';
+    } else {
+        this.innerText = 'Start spel';
+    }
+}
